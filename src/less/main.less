@@ -3,7 +3,7 @@ img {max-width: 100%;height: auto;}
 .highlight(@primary, @white);
 
 body {
-  background-color: hsl(0, 0%, 95%);
+  background-color: hsl(221, 69%, 25%);
   font-family: @copy;
   font-weight: @normal;
   font-size: 17px;
@@ -27,3 +27,13 @@ section {
   .make-row();
 }
 
+.section-title {
+  text-align: center;
+  padding: 50px;
+  background-color: hsl(221, 69%, 20%);
+  .box-shadow(inset 0px 2px 2px hsla(0, 0%, 0%, .5));
+  //border: 1px solid hsl(228, 79%, 67%);
+  border-radius: 10px;
+  color: hsl(0, 0%, 100%);
+  font-size: 60px;
+}
